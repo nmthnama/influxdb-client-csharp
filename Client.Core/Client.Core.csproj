@@ -1,9 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
-        <LangVersion>8</LangVersion>
-
+        <TargetFrameworks>net6.0</TargetFrameworks>
         <Description>InfluxDB Client Core - exceptions, validations, REST client.</Description>
         <Authors>influxdb-client-csharp Contributors</Authors>
         <AssemblyName>InfluxDB.Client.Core</AssemblyName>
