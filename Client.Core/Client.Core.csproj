@@ -2,6 +2,7 @@
 
     <PropertyGroup>
         <TargetFrameworks>net6.0</TargetFrameworks>
+        <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
         <Description>InfluxDB Client Core - exceptions, validations, REST client.</Description>
         <Authors>influxdb-client-csharp Contributors</Authors>
         <AssemblyName>InfluxDB.Client.Core</AssemblyName>
@@ -34,7 +35,7 @@
       <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
       <PackageReference Include="NodaTime" Version="3.1.9" />
       <PackageReference Include="NodaTime.Serialization.JsonNet" Version="3.0.1" />
-      <PackageReference Include="RestSharp" Version="110.1.0" />
+      <PackageReference Include="RestSharp" Version="109.0.1" />
     </ItemGroup>
 
 </Project>
